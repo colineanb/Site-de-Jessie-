@@ -1,0 +1,79 @@
+
+h1 {
+  font-family: 'Gill Sans';
+  font-weight: lighter;
+  color:#707070;
+  font-size: 3.5em;
+  margin-bottom:5%;
+  margin-left: 15%;
+  margin-top:2%;
+
+}
+h1:first-letter {
+  color:#F60404;
+}
+.barre{
+  background-color: #F60404;
+  width: 0.05%;
+  height: 10%;
+  position: absolute;
+  z-index: 1;
+  margin-left:9%;
+  margin-top: 4.5%;
+  transform: rotate(20deg);
+}
+h3{
+  font-family: 'Gill Sans';
+  font-weight: lighter;
+  color:#707070;
+  font-size: 2.5em;
+  margin-top: 2%;
+  margin-bottom:4%;
+
+}
+span{
+  color: #F60404;
+}
+/* RED BAR */
+.bar{
+  background-color: #F60404;
+  width: 0.05%;
+  height: 8%;
+  position: absolute;
+  z-index: 1;
+  margin-left: 13%;
+  margin-top:2%;
+  transform: rotate(20deg);
+}
+/*DIV PHOTOS */
+.col-md-6.right img {
+  width: 80%;
+}
+.col-md-6.left img{
+  width: 90%;
+}
+.right{
+  padding-left: 10%;
+}
+.left{
+  padding-right: 10%;
+}
+@media (max-width: 768px)
+{
+  .col-md-6.right img {
+    padding-bottom: 12%;
+    width: 80%;
+  }
+  .col-md-6.left img{
+    padding-bottom: 12%;
+    padding-left:12%;
+  }
+  h3{
+    text-align: center;
+  }
+}
+@media (max-width: 992px){
+  .col-md-6.left img{
+    width:102%;
+  }
+}
