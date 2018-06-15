@@ -5,7 +5,7 @@
     font-family: 'Gill Sans';
     text-decoration: none;
     font-weight: lighter;
-
+    background-color: white;
 }
 
 #portefolio_dropdown button{
@@ -20,6 +20,17 @@
     font-size: 20px;
     list-style: none;
     text-align: center;
+}
+.carousel-item{
+  height: 550px;
+}
+.carousel-control-prev{
+  width: 10%;
+  background-color: grey;
+}
+.carousel-control-next{
+  width: 10%;
+  background-color: grey;
 }
 
 
@@ -101,11 +112,22 @@ h3:first-letter{
 }
 
 .carousel-caption{
-  margin-right: 30%;
-  margin-bottom: 30%;
-  padding: 10px;
+  margin-right: 50%;
+  margin-bottom: 20%;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  text-align: left;
+  border-left: 1px #F60404 solid;
+
 }
+
 h4{
+  color: #F60404;
+}
+h5{
+  color: grey;
+}
+.carousel-caption p{
   color: #F60404;
 }
 
@@ -117,7 +139,7 @@ h4{
 
 img.bio{
   width: 80%;
-  margin-left: 30%;
+  margin-left: 60%;
 }
 
 
@@ -213,6 +235,7 @@ h2{
   font-weight: lighter;
   margin: 10%;
   font-size: 1.3em;
+
 }
 
 .content-contact .formulaire{
@@ -226,11 +249,13 @@ h2{
 
 .content-contact input, textarea{
   width: 100%;
+  border: none;
 }
 
 .content-contact button{
   margin-top: 3%;
 }
+
 
 
 
@@ -240,9 +265,8 @@ footer{
 
 }
 footer a img.reseaux{
-  width: 20%;
-  margin-left: 15%;
-  margin-top: 5%;
+  width: 15%;
+
 }
 
 footer img.logo{
