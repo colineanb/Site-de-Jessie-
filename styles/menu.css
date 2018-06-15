@@ -1,0 +1,82 @@
+#navHeader{
+    font-size: 24px;
+    font-family: 'Gill Sans';
+    text-decoration: none;
+    font-weight: lighter;
+
+}
+
+#portefolio_dropdown button{
+    background-color: none;
+}
+
+#navHeader a{
+    color: black;
+}
+
+.reportages{
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+.dark-blue-text {
+    color: #0A38F5;
+}
+.dark-pink-text {
+    color: #AC003A;
+}
+.dark-amber-text {
+    color: #ff6f00;
+}
+.dark-teal-text {
+    color: #004d40;
+}
+
+#navburger{
+    display: none;
+}
+.nav-link {
+    position: relative;
+}
+.nav-link:not(.logo)::before {
+    content: " ";
+    background-color: #F60404;
+    width: 1px;
+    height: 46px;
+    position: absolute;
+    left: 3px; top: -2px;
+    z-index: 1;
+    transform: rotate(30deg);
+    /* transition: all 0.45s ease; */
+}
+.nav-link:not(.logo):hover::before {
+    transform: rotate(390deg);
+    transition: all 0.45s ease;
+}
+
+@media (max-width: 575.98px) {
+
+    .nav-link:not(.logo)::before{
+        height: 50%;
+        top: 10px;
+        left: -5px;
+    }
+
+
+    #navburger{
+        display: block;
+    }
+    #navburger button{
+        float: right;
+    }
+    #navHeader{
+        display: none;
+    }
+}
