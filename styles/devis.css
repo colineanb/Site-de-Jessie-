@@ -1,0 +1,56 @@
+h1 {
+  font-family: 'Gill Sans';
+  font-weight: lighter;
+  color:#707070;
+  font-size: 3.5em;
+  margin-bottom:3%;
+  margin-left: 15%
+
+}
+h1:first-letter {
+  color:#F60404;
+}
+.row{
+  bottom:12px;
+}
+.bar{
+  background-color: #F60404;
+  width: 0.05%;
+  height: 8%;
+  position: absolute;
+  z-index: 1;
+  margin-left: 13%;
+  transform: rotate(20deg);
+}
+
+/* bloc des devis*/
+
+.link{
+  position: relative;
+  z-index: 1;
+  font-family: "Helvetica Neue";
+  color: #707070;
+  font-size: 140%;
+  padding: 7% 15%;
+  background-color: #E0DDDB;
+  opacity:0.6;
+}
+.link:hover{
+  text-decoration: none;
+  color:black;
+}
+#FirstChoice{
+  position: relative;
+  top: 50%;
+}
+#SecondChoice{
+  position: relative;
+  top:50%;
+}
+/*images*/
+
+.col-md-5 img{
+  width:80%;
+  height: auto;
+  border: 2px #DBD9D9 solid;
+}
