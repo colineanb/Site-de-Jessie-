@@ -1,0 +1,10 @@
+#navHeader{
+    font-size: 24px;
+    font-family: 'Gill Sans';
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+#navHeader a{
+    color: black;
+}

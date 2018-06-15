@@ -1,0 +1,82 @@
+*{
+  color:#707070;
+    font-family: "Helvetica Neue";
+}
+main{
+  background-color: #fafafa;
+}
+h1 {
+  font-family: 'Gill Sans';
+  font-weight: lighter;
+  color:#707070;
+  font-size: 3.5em;
+  margin-bottom:10%;
+  margin-left: 10%
+
+}
+h1:first-letter {
+  color:#F60404;
+}
+.bar{
+  background-color: #F60404;
+  width: 0.05%;
+  height: 5%;
+  position: absolute;
+  z-index: 1;
+  margin-left: 8%;
+  transform: rotate(20deg);
+}
+
+/*formule blocks*/
+h3{
+ font-weight: bold;
+ font-size: 1.4em;
+ margin-left: 10%;
+ margin-top: 10%;
+}
+.col-md-8{
+  background-color:white;
+  border: 1px #AFAFAF solid;
+  height: 300px;
+  margin-bottom:8%;
+}
+.col-md-8:hover{
+  border: 6px #D3D3D3 solid;
+}
+
+.text{
+  margin-left: 10%;
+  margin-top: 15%;
+  font-size: 1.1em;
+}
+.price{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* images */
+.shootingPicture{
+  width: 395px;
+  height:auto;
+  position:relative;
+  bottom:20%;
+  left:10%;
+}
+/*lien*/
+.rdv{
+  background-color:#DBDBDB;
+  text-align: center;
+  margin-bottom: 40px;
+  padding-top:11px;
+  height: 50px;
+  width: 200px;
+  color:white;
+  border-radius: 5px;
+}
+#contact a:hover{
+  background-color:white;
+  text-decoration:none;
+  color:#707070;
+}
+
+/*Responsive*/

@@ -1,0 +1,260 @@
+/*header*/
+
+#navHeader{
+    font-size: 24px;
+    font-family: 'Gill Sans';
+    text-decoration: none;
+    font-weight: lighter;
+
+}
+
+#portefolio_dropdown button{
+    background-color: none;
+}
+
+#navHeader a{
+    color: black;
+}
+
+.reportages{
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+.dark-blue-text {
+    color: #0A38F5;
+}
+.dark-pink-text {
+    color: #AC003A;
+}
+.dark-amber-text {
+    color: #ff6f00;
+}
+.dark-teal-text {
+    color: #004d40;
+}
+
+#navburger{
+    display: none;
+}
+.nav-link {
+    position: relative;
+}
+.nav-link:not(.logo)::before {
+    content: " ";
+    background-color: #F60404;
+    width: 1px;
+    height: 46px;
+    position: absolute;
+    left: 3px; top: -2px;
+    z-index: 1;
+    transform: rotate(30deg);
+    /* transition: all 0.45s ease; */
+}
+.nav-link:not(.logo):hover::before {
+    transform: rotate(390deg);
+    transition: all 0.45s ease;
+}
+
+@media (max-width: 575.98px) {
+
+    .nav-link:not(.logo)::before{
+        height: 50%;
+        top: 10px;
+        left: -5px;
+    }
+
+
+    #navburger{
+        display: block;
+    }
+    #navburger button{
+        float: right;
+    }
+    #navHeader{
+        display: none;
+    }
+}
+
+
+
+
+/*general*/
+body{
+  background-color: #F1F1F3;
+}
+
+
+h2:first-letter{
+  color: #F60404;
+}
+h3:first-letter{
+  color: #F60404;
+}
+
+.carousel-caption{
+  margin-right: 30%;
+  margin-bottom: 30%;
+  padding: 10px;
+}
+h4{
+  color: #F60404;
+}
+
+/*bio*/
+
+.content-bio{
+  background-color: #F1F1F3;
+}
+
+img.bio{
+  width: 80%;
+  margin-left: 30%;
+}
+
+
+
+h3{
+  font-family: "Gill sans";
+  font-weight: regular;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.content-bio p{
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: "Helvetica Neue"
+}
+
+
+/*instagram*/
+
+.content-insta{
+  background-color: #F1F1F3;
+  text-align: center;
+}
+
+.content-insta p{
+  margin-bottom: 5%;
+  font-size: 1.5em;
+  color: #F60404;
+  font-family: "Gill sans";
+  font-weight: lighter;
+  font-style: italic;
+}
+
+img.insta1{
+  margin-top: 5%;
+  width: 2%;
+}
+
+img.insta2{
+  margin-top: 5%;
+  width: 10%;
+}
+
+/*Contact*/
+
+
+.content-contact img{
+  position: relative;
+  width: 100%;
+}
+
+.content-contact h2{
+  position: absolute;
+  z-index: 1;
+
+}
+
+h2{
+  font-family: "Gill sans";
+  font-weight: lighter;
+  margin-left: 15%;
+  margin-top: 5%;
+  font-size: 3.5em;
+  padding-left: 1%;
+}
+
+.content-contact .col-6{
+  background: white;
+  width: 30%;
+  position: absolute;
+  z-index: 1;
+  margin-top: 20%;
+  margin-left: 15%;
+  box-shadow: 1px 1px 12px #555;
+}
+
+.barre{
+  background-color: #F60404;
+  width: 0.05%;
+  height: 10%;
+  position: absolute;
+  z-index: 1;
+  margin-left: 15%;
+  margin-top: 4.5%;
+  transform: rotate(20deg);
+}
+
+.content-contact p{
+  font-family: "Gill sans";
+  font-weight: lighter;
+  margin: 10%;
+  font-size: 1.3em;
+}
+
+.content-contact .formulaire{
+  width: 30%;
+  position: absolute;
+  z-index: 1;
+  margin-top: 20%;
+  margin-left: 55%;
+  padding-bottom: 10%;
+}
+
+.content-contact input, textarea{
+  width: 100%;
+}
+
+.content-contact button{
+  margin-top: 3%;
+}
+
+
+
+footer{
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+}
+footer a img.reseaux{
+  width: 20%;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+footer img.logo{
+  width: 50%;
+}
+
+footer .col-3 a{
+  display: flex;
+  flex-direction: column;
+}
+
+footer a{
+  font-size: 1.1em;
+  color: black;
+}
