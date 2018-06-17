@@ -1,0 +1,145 @@
+*{
+  color:#707070;;
+}
+
+main{
+  background-color: #fafafa;
+}
+h1 {
+  font-family: 'Gill Sans';
+  font-weight: lighter;
+  color:#707070;
+  font-size: 3.5em;
+  margin-bottom:10%;
+  margin-left: 10%
+
+}
+h1:first-letter {
+  color:#F60404;
+}
+.bar{
+  background-color: #F60404;
+  width: 0.05%;
+  height: 8%;
+  position: absolute;
+  z-index: 1;
+  margin-left: 8%;
+  transform: rotate(20deg);
+}
+
+/*formule blocks*/
+h3{
+  font-weight: bold;
+  font-size: 1.4em;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.col-md-8{
+  background-color:white;
+  border: 1px #AFAFAF solid;
+  height: 300px;
+  margin-bottom:8%;
+  border: 6px transparent solid;
+
+}
+.col-md-8:hover{
+  border: 6px #D3D3D3 solid;
+}
+
+.text{
+  margin-left: 10%;
+  margin-top: 15%;
+  font-size: 1.1em;
+}
+.price{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+#price1{
+  margin-top:5%;
+}
+
+/* images */
+.shootingPicture{
+  width: 395px;
+  height:auto;
+  position:absolute;
+  bottom:20%;
+  left:10%;
+}
+/*lien*/
+.rdv{
+  background-color:#DBDBDB;
+  text-align: center;
+  margin-bottom: 40px;
+  padding-top:11px;
+  height: 50px;
+  width: 200px;
+  color:white;
+  border-radius: 5px;
+}
+#contact a:hover{
+  background-color:white;
+  border:1px #AFAFAF solid;
+  text-decoration:none;
+  color:#707070;
+}
+/*footer*/
+footer{
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+}
+footer a img.reseaux{
+  width: 15%;
+
+}
+
+footer img.logo{
+  width: 50%;
+}
+
+footer .col-3 a{
+  display: flex;
+  flex-direction: column;
+}
+
+footer a{
+  font-size: 1.1em;
+  color: black;
+}
+
+
+/*Responsive*/
+@media screen and (max-width: 767px){
+  .shootingPicture{
+  visibility: hidden;
+  }
+  .col-md-6{
+    width: 500px;
+    text-align: center;
+  }
+  #lastPrice{
+    margin-left: 40%;
+  }
+  #contact{
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 992px){
+  .col-md-8{
+    padding-bottom: 32%;
+  }
+  #last{
+    padding-bottom: 36%;
+  }
+  .shootingPicture{
+    width: 140%;
+  }
+  .text{
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
+}
